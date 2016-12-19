@@ -4,8 +4,10 @@ node_js:
 env: 
 matrix:
  - AUTH=true
+ - AUTH=false
  - USER=test
  - PASSWORD=secret
+ - 
 before_script:
  - npm start
 script: 
