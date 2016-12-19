@@ -9,3 +9,7 @@ script:
 branches: 
   only: 
    - master
+notifications:
+   email:
+    - dennis.wolters@upb.de
+   
