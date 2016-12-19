@@ -3,6 +3,9 @@ node_js:
 - "6"
 before_script:
  - npm start
- script: 
+script: 
   - npm test 
   - npm run lint
+branches: 
+  only: 
+   - master
