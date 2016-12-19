@@ -1,6 +1,11 @@
 language: node_js
 node_js: 
 - "6"
+env: 
+matrix:
+ - AUTH=true
+ - USER=test
+ - PASSWORD=secret
 before_script:
  - npm start
 script: 
@@ -12,4 +17,4 @@ branches:
 notifications:
    email:
     - dennis.wolters@upb.de
-   
+    
